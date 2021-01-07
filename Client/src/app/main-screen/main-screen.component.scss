@@ -1,0 +1,64 @@
+.city-page{
+    .title{
+        font-size: 16px;
+       
+    }
+    .name-city{
+        font-size: 14px;
+        .wrap-weather{
+        display: flex;
+        .temparature{
+            margin-right: 10px;
+        }
+        }
+        
+    }
+    
+    .left-line{
+        border-left: 5px solid;
+        position: absolute;
+        height: 80%;
+        right: 35%;
+        top: 15%;
+    }
+   
+    
+    .wraper{
+        align-items: center;
+        position: absolute;
+        right: 8%;
+        top: 17%;
+        
+        .item
+        {
+            &:hover{
+                  cursor: pointer;
+                }
+            font-size: 14px;
+            padding-bottom: 18px;
+            width: 135px;
+            display: flex;
+            .selected{
+                
+                border: 1px solid;
+            }
+            
+        }
+    }
+   
+    .wrapr-details-city{
+        margin-left: 5%;
+        margin-top: 12%;
+        font-size: 14px;
+    }
+    }
+    .favorite-icon{
+        width: 20%;
+        padding-right: 5%;
+       
+    }
+    .my-btn{
+        width: 40%;
+        height: 20%;
+    }
+    

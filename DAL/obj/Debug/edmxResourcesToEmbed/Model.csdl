@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CategoryEmergencyRooms" EntityType="Model.CategoryEmergencyRoom" />
+    <EntitySet Name="Correspondences" EntityType="Model.Correspondence" />
+    <EntitySet Name="LevelQuestions" EntityType="Model.LevelQuestion" />
+    <EntitySet Name="LinCcorrespondences" EntityType="Model.LinCcorrespondence" />
+    <EntitySet Name="TypeInputs" EntityType="Model.TypeInput" />
+    <AssociationSet Name="FK__LinCcorre__dateC__25869641" Association="Model.FK__LinCcorre__dateC__25869641">
+      <End Role="Correspondence" EntitySet="Correspondences" />
+      <End Role="LinCcorrespondence" EntitySet="LinCcorrespondences" />
+    </AssociationSet>
+    <EntitySet Name="EmergencyRooms" EntityType="Model.EmergencyRoom" />
+    <AssociationSet Name="FK_EmergencyRoom_CategoryEmergencyRooms" Association="Model.FK_EmergencyRoom_CategoryEmergencyRooms">
+      <End Role="CategoryEmergencyRoom" EntitySet="CategoryEmergencyRooms" />
+      <End Role="EmergencyRoom" EntitySet="EmergencyRooms" />
+    </AssociationSet>
+    <EntitySet Name="DetailsVisits" EntityType="Model.DetailsVisit" />
+    <EntitySet Name="statusQuestions" EntityType="Model.statusQuestion" />
+    <EntitySet Name="Visitings" EntityType="Model.Visiting" />
+    <AssociationSet Name="FK__DetailsVi__Level__60A75C0F" Association="Model.FK__DetailsVi__Level__60A75C0F">
+      <End Role="LevelQuestion" EntitySet="LevelQuestions" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisits" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailsVi__visit__5FB337D6" Association="Model.FK__DetailsVi__visit__5FB337D6">
+      <End Role="Visiting" EntitySet="Visitings" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisits" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Visitings__emerg__145C0A3F" Association="Model.FK__Visitings__emerg__145C0A3F">
+      <End Role="EmergencyRoom" EntitySet="EmergencyRooms" />
+      <End Role="Visiting" EntitySet="Visitings" />
+    </AssociationSet>
+    <EntitySet Name="Questions" EntityType="Model.Question" />
+    <AssociationSet Name="FK__DetailsVi__qoest__5EBF139D" Association="Model.FK__DetailsVi__qoest__5EBF139D">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisits" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LevelQues__Quest__5BE2A6F2" Association="Model.FK__LevelQues__Quest__5BE2A6F2">
+      <End Role="Question" EntitySet="Questions" />
+      <End Role="LevelQuestion" EntitySet="LevelQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Questions__codeT__29572725" Association="Model.FK__Questions__codeT__29572725">
+      <End Role="TypeInput" EntitySet="TypeInputs" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Questions__statu__286302EC" Association="Model.FK__Questions__statu__286302EC">
+      <End Role="statusQuestion" EntitySet="statusQuestions" />
+      <End Role="Question" EntitySet="Questions" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="Model.User" />
+    <AssociationSet Name="FK__Visitings__userC__15502E78" Association="Model.FK__Visitings__userC__15502E78">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Visiting" EntitySet="Visitings" />
+    </AssociationSet>
+    <EntitySet Name="Messages" EntityType="Model.Message" />
+    <AssociationSet Name="FK_Message_Users" Association="Model.FK_Message_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CategoryEmergencyRoom">
+    <Key>
+      <PropertyRef Name="CategoryCode" />
+    </Key>
+    <Property Name="CategoryCode" Type="Int32" Nullable="false" />
+    <Property Name="descriptionCategory" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="EmergencyRooms" Relationship="Model.FK_EmergencyRoom_CategoryEmergencyRooms" FromRole="CategoryEmergencyRoom" ToRole="EmergencyRoom" />
+  </EntityType>
+  <EntityType Name="Correspondence">
+    <Key>
+      <PropertyRef Name="dateCorrespondence" />
+    </Key>
+    <Property Name="dateCorrespondence" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="codeOpenUser" Type="Int32" Nullable="false" />
+    <Property Name="statusCorrespondence" Type="Int32" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LinCcorrespondences" Relationship="Model.FK__LinCcorre__dateC__25869641" FromRole="Correspondence" ToRole="LinCcorrespondence" />
+  </EntityType>
+  <EntityType Name="LevelQuestion">
+    <Key>
+      <PropertyRef Name="LevelCode" />
+    </Key>
+    <Property Name="QuestionsCode" Type="Int32" Nullable="false" />
+    <Property Name="LevelCode" Type="Int32" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DetailsVisits" Relationship="Model.FK__DetailsVi__Level__60A75C0F" FromRole="LevelQuestion" ToRole="DetailsVisit" />
+    <NavigationProperty Name="Question" Relationship="Model.FK__LevelQues__Quest__5BE2A6F2" FromRole="LevelQuestion" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="LinCcorrespondence">
+    <Key>
+      <PropertyRef Name="CodeCorrespondence" />
+    </Key>
+    <Property Name="CodeCorrespondence" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userCode" Type="Int32" Nullable="false" />
+    <Property Name="dateCorrespondence" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="textCorrespondence" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="attachedFile" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Correspondence" Relationship="Model.FK__LinCcorre__dateC__25869641" FromRole="LinCcorrespondence" ToRole="Correspondence" />
+  </EntityType>
+  <EntityType Name="TypeInput">
+    <Key>
+      <PropertyRef Name="CodeInput" />
+    </Key>
+    <Property Name="CodeInput" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameInput" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Questions" Relationship="Model.FK__Questions__codeT__29572725" FromRole="TypeInput" ToRole="Question" />
+  </EntityType>
+  <Association Name="FK__LinCcorre__dateC__25869641">
+    <End Type="Model.Correspondence" Role="Correspondence" Multiplicity="1" />
+    <End Type="Model.LinCcorrespondence" Role="LinCcorrespondence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Correspondence">
+        <PropertyRef Name="dateCorrespondence" />
+      </Principal>
+      <Dependent Role="LinCcorrespondence">
+        <PropertyRef Name="dateCorrespondence" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="EmergencyRoom">
+    <Key>
+      <PropertyRef Name="emergencyRoomCode" />
+    </Key>
+    <Property Name="emergencyRoomCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="emergencyRoomName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="emergencyRoomAdress" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="datumPointX" Type="Double" />
+    <Property Name="datumPointY" Type="Double" />
+    <Property Name="categoryCode" Type="Int32" />
+    <Property Name="Satisfaction" Type="Int32" />
+    <Property Name="loadHospital" Type="Int32" />
+    <NavigationProperty Name="CategoryEmergencyRoom" Relationship="Model.FK_EmergencyRoom_CategoryEmergencyRooms" FromRole="EmergencyRoom" ToRole="CategoryEmergencyRoom" />
+    <NavigationProperty Name="Visitings" Relationship="Model.FK__Visitings__emerg__145C0A3F" FromRole="EmergencyRoom" ToRole="Visiting" />
+  </EntityType>
+  <Association Name="FK_EmergencyRoom_CategoryEmergencyRooms">
+    <End Type="Model.CategoryEmergencyRoom" Role="CategoryEmergencyRoom" Multiplicity="0..1" />
+    <End Type="Model.EmergencyRoom" Role="EmergencyRoom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryEmergencyRoom">
+        <PropertyRef Name="CategoryCode" />
+      </Principal>
+      <Dependent Role="EmergencyRoom">
+        <PropertyRef Name="categoryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="DetailsVisit">
+    <Key>
+      <PropertyRef Name="DetailsCode" />
+    </Key>
+    <Property Name="DetailsCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="qoestionCode" Type="Int32" Nullable="false" />
+    <Property Name="visitCode" Type="Int32" Nullable="false" />
+    <Property Name="dateAndTimeDetail" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="LevelCode" Type="Int32" Nullable="false" />
+    <Property Name="reliabilityDetails" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="LevelQuestion" Relationship="Model.FK__DetailsVi__Level__60A75C0F" FromRole="DetailsVisit" ToRole="LevelQuestion" />
+    <NavigationProperty Name="Visiting" Relationship="Model.FK__DetailsVi__visit__5FB337D6" FromRole="DetailsVisit" ToRole="Visiting" />
+    <NavigationProperty Name="Question" Relationship="Model.FK__DetailsVi__qoest__5EBF139D" FromRole="DetailsVisit" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="statusQuestion">
+    <Key>
+      <PropertyRef Name="codeStatus" />
+    </Key>
+    <Property Name="codeStatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="descriptionStatus" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Questions" Relationship="Model.FK__Questions__statu__286302EC" FromRole="statusQuestion" ToRole="Question" />
+  </EntityType>
+  <EntityType Name="Visiting">
+    <Key>
+      <PropertyRef Name="codeVisit" />
+    </Key>
+    <Property Name="codeVisit" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="dateAndTimeStart" Type="DateTime" Precision="7" />
+    <Property Name="dateAndTimeEnd" Type="DateTime" Precision="7" />
+    <Property Name="emergencyRoomCode" Type="Int32" Nullable="false" />
+    <Property Name="userCode" Type="Int32" Nullable="false" />
+    <Property Name="reliabilityVisit" Type="Int32" />
+    <NavigationProperty Name="DetailsVisits" Relationship="Model.FK__DetailsVi__visit__5FB337D6" FromRole="Visiting" ToRole="DetailsVisit" />
+    <NavigationProperty Name="EmergencyRoom" Relationship="Model.FK__Visitings__emerg__145C0A3F" FromRole="Visiting" ToRole="EmergencyRoom" />
+    <NavigationProperty Name="User" Relationship="Model.FK__Visitings__userC__15502E78" FromRole="Visiting" ToRole="User" />
+  </EntityType>
+  <Association Name="FK__DetailsVi__Level__60A75C0F">
+    <End Type="Model.LevelQuestion" Role="LevelQuestion" Multiplicity="1" />
+    <End Type="Model.DetailsVisit" Role="DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LevelQuestion">
+        <PropertyRef Name="LevelCode" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="LevelCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailsVi__visit__5FB337D6">
+    <End Type="Model.Visiting" Role="Visiting" Multiplicity="1" />
+    <End Type="Model.DetailsVisit" Role="DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Visiting">
+        <PropertyRef Name="codeVisit" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="visitCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Visitings__emerg__145C0A3F">
+    <End Type="Model.EmergencyRoom" Role="EmergencyRoom" Multiplicity="1" />
+    <End Type="Model.Visiting" Role="Visiting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmergencyRoom">
+        <PropertyRef Name="emergencyRoomCode" />
+      </Principal>
+      <Dependent Role="Visiting">
+        <PropertyRef Name="emergencyRoomCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="QuestionsCode" />
+    </Key>
+    <Property Name="QuestionsCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QuestionsDescription" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="statusQuestions" Type="Int32" Nullable="false" />
+    <Property Name="codeTpeInput" Type="Int32" />
+    <Property Name="value1" Type="Int32" />
+    <Property Name="value2" Type="Int32" />
+    <Property Name="text1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="text2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DetailsVisits" Relationship="Model.FK__DetailsVi__qoest__5EBF139D" FromRole="Question" ToRole="DetailsVisit" />
+    <NavigationProperty Name="LevelQuestions" Relationship="Model.FK__LevelQues__Quest__5BE2A6F2" FromRole="Question" ToRole="LevelQuestion" />
+    <NavigationProperty Name="TypeInput" Relationship="Model.FK__Questions__codeT__29572725" FromRole="Question" ToRole="TypeInput" />
+    <NavigationProperty Name="statusQuestion" Relationship="Model.FK__Questions__statu__286302EC" FromRole="Question" ToRole="statusQuestion" />
+  </EntityType>
+  <Association Name="FK__DetailsVi__qoest__5EBF139D">
+    <End Type="Model.Question" Role="Question" Multiplicity="1" />
+    <End Type="Model.DetailsVisit" Role="DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionsCode" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="qoestionCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LevelQues__Quest__5BE2A6F2">
+    <End Type="Model.Question" Role="Question" Multiplicity="1" />
+    <End Type="Model.LevelQuestion" Role="LevelQuestion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Question">
+        <PropertyRef Name="QuestionsCode" />
+      </Principal>
+      <Dependent Role="LevelQuestion">
+        <PropertyRef Name="QuestionsCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Questions__codeT__29572725">
+    <End Type="Model.TypeInput" Role="TypeInput" Multiplicity="0..1" />
+    <End Type="Model.Question" Role="Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeInput">
+        <PropertyRef Name="CodeInput" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="codeTpeInput" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Questions__statu__286302EC">
+    <End Type="Model.statusQuestion" Role="statusQuestion" Multiplicity="1" />
+    <End Type="Model.Question" Role="Question" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="statusQuestion">
+        <PropertyRef Name="codeStatus" />
+      </Principal>
+      <Dependent Role="Question">
+        <PropertyRef Name="statusQuestions" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="userCode" />
+    </Key>
+    <Property Name="userCode" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="lName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="visitsNum" Type="Int32" />
+    <Property Name="reliability" Type="Int32" />
+    <Property Name="EmergencyRoomCode" Type="Int32" />
+    <NavigationProperty Name="Visitings" Relationship="Model.FK__Visitings__userC__15502E78" FromRole="User" ToRole="Visiting" />
+    <NavigationProperty Name="Messages" Relationship="Model.FK_Message_Users" FromRole="User" ToRole="Message" />
+  </EntityType>
+  <Association Name="FK__Visitings__userC__15502E78">
+    <End Type="Model.User" Role="User" Multiplicity="1" />
+    <End Type="Model.Visiting" Role="Visiting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userCode" />
+      </Principal>
+      <Dependent Role="Visiting">
+        <PropertyRef Name="userCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageCode" />
+    </Key>
+    <Property Name="MessageCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hour" Type="DateTime" Precision="7" />
+    <Property Name="sender" Type="Int32" />
+    <Property Name="addresse" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MessageDetails" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="viewa" Type="Boolean" />
+    <Property Name="nameUser" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="Model.FK_Message_Users" FromRole="Message" ToRole="User" />
+  </EntityType>
+  <Association Name="FK_Message_Users">
+    <End Type="Model.User" Role="User" Multiplicity="0..1" />
+    <End Type="Model.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userCode" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="sender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

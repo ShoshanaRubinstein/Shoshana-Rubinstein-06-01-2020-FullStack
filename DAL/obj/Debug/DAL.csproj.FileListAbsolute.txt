@@ -1,0 +1,150 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.pdb
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.dll.config
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.pdb
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.dll.config
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+M:\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.dll
+M:\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\DAL.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Common.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\Entities.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\DAL\obj\Debug\DAL.pdb
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.dll.config
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.pdb
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.dll.config
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.xml
+M:\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.dll
+M:\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\DAL.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Common.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\Entities.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\DAL\obj\Debug\DAL.pdb
+G:\project\ProjectExample1\DAL\bin\Debug\DAL.dll.config
+G:\project\ProjectExample1\DAL\bin\Debug\DAL.dll
+G:\project\ProjectExample1\DAL\bin\Debug\DAL.pdb
+G:\project\ProjectExample1\DAL\bin\Debug\Common.dll
+G:\project\ProjectExample1\DAL\bin\Debug\Entities.dll
+G:\project\ProjectExample1\DAL\bin\Debug\EntityFramework.dll
+G:\project\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\project\ProjectExample1\DAL\bin\Debug\Common.pdb
+G:\project\ProjectExample1\DAL\bin\Debug\Entities.pdb
+G:\project\ProjectExample1\DAL\bin\Debug\Entities.dll.config
+G:\project\ProjectExample1\DAL\bin\Debug\EntityFramework.xml
+G:\project\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\project\ProjectExample1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+G:\project\ProjectExample1\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\project\ProjectExample1\DAL\obj\Debug\DAL.dll
+G:\project\ProjectExample1\DAL\obj\Debug\DAL.pdb
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\DAL.dll.config
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\DAL.dll
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\DAL.pdb
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\Common.dll
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\Entities.dll
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\EntityFramework.dll
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\Common.pdb
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\Entities.pdb
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\Entities.dll.config
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\EntityFramework.xml
+C:\Users\rubinsts\ProjectExample1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rubinsts\ProjectExample1\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\rubinsts\ProjectExample1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\rubinsts\ProjectExample1\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\rubinsts\ProjectExample1\DAL\obj\Debug\DAL.dll
+C:\Users\rubinsts\ProjectExample1\DAL\obj\Debug\DAL.pdb
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\DAL.dll.config
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\DAL.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\DAL.pdb
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\Common.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\Entities.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\EntityFramework.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\Common.pdb
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\Entities.pdb
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\Entities.dll.config
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\EntityFramework.xml
+C:\Users\rubinsts\Desktop\app-weather\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rubinsts\Desktop\app-weather\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\rubinsts\Desktop\app-weather\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\rubinsts\Desktop\app-weather\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\rubinsts\Desktop\app-weather\DAL\obj\Debug\DAL.dll
+C:\Users\rubinsts\Desktop\app-weather\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,104 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.dll.config
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+M:\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\Entities.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.dll.config
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.pdb
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.dll
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.xml
+M:\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+M:\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.dll
+M:\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.dll.config
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\Entities.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.xml
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Entities\obj\Debug\Entities.pdb
+G:\project\ProjectExample1\Entities\bin\Debug\Entities.dll.config
+G:\project\ProjectExample1\Entities\bin\Debug\Entities.dll
+G:\project\ProjectExample1\Entities\bin\Debug\Entities.pdb
+G:\project\ProjectExample1\Entities\bin\Debug\EntityFramework.dll
+G:\project\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.dll
+G:\project\ProjectExample1\Entities\bin\Debug\EntityFramework.xml
+G:\project\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.xml
+G:\project\ProjectExample1\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+G:\project\ProjectExample1\Entities\obj\Debug\Entities.csproj.CopyComplete
+G:\project\ProjectExample1\Entities\obj\Debug\Entities.dll
+G:\project\ProjectExample1\Entities\obj\Debug\Entities.pdb
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\Entities.dll.config
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\Entities.dll
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\Entities.pdb
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\EntityFramework.dll
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\EntityFramework.xml
+C:\Users\rubinsts\ProjectExample1\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rubinsts\ProjectExample1\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\rubinsts\ProjectExample1\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\rubinsts\ProjectExample1\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\rubinsts\ProjectExample1\Entities\obj\Debug\Entities.dll
+C:\Users\rubinsts\ProjectExample1\Entities\obj\Debug\Entities.pdb
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\Entities.dll.config
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\Entities.dll
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\Entities.pdb
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\EntityFramework.dll
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\EntityFramework.xml
+C:\Users\rubinsts\Desktop\app-weather\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rubinsts\Desktop\app-weather\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\rubinsts\Desktop\app-weather\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\rubinsts\Desktop\app-weather\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\rubinsts\Desktop\app-weather\Entities\obj\Debug\Entities.dll
+C:\Users\rubinsts\Desktop\app-weather\Entities\obj\Debug\Entities.pdb

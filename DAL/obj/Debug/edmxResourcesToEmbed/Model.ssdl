@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CategoryEmergencyRooms">
+    <Key>
+      <PropertyRef Name="CategoryCode" />
+    </Key>
+    <Property Name="CategoryCode" Type="int" Nullable="false" />
+    <Property Name="descriptionCategory" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Correspondence">
+    <Key>
+      <PropertyRef Name="dateCorrespondence" />
+    </Key>
+    <Property Name="dateCorrespondence" Type="date" Nullable="false" />
+    <Property Name="codeOpenUser" Type="int" Nullable="false" />
+    <Property Name="statusCorrespondence" Type="int" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DetailsVisit">
+    <Key>
+      <PropertyRef Name="DetailsCode" />
+    </Key>
+    <Property Name="DetailsCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="qoestionCode" Type="int" Nullable="false" />
+    <Property Name="visitCode" Type="int" Nullable="false" />
+    <Property Name="dateAndTimeDetail" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="LevelCode" Type="int" Nullable="false" />
+    <Property Name="reliabilityDetails" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmergencyRoom">
+    <Key>
+      <PropertyRef Name="emergencyRoomCode" />
+    </Key>
+    <Property Name="emergencyRoomCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="emergencyRoomName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="emergencyRoomAdress" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="datumPointX" Type="float" />
+    <Property Name="datumPointY" Type="float" />
+    <Property Name="categoryCode" Type="int" />
+    <Property Name="Satisfaction" Type="int" />
+    <Property Name="loadHospital" Type="int" />
+  </EntityType>
+  <EntityType Name="LevelQuestions">
+    <Key>
+      <PropertyRef Name="LevelCode" />
+    </Key>
+    <Property Name="QuestionsCode" Type="int" Nullable="false" />
+    <Property Name="LevelCode" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LinCcorrespondence">
+    <Key>
+      <PropertyRef Name="CodeCorrespondence" />
+    </Key>
+    <Property Name="CodeCorrespondence" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userCode" Type="int" Nullable="false" />
+    <Property Name="dateCorrespondence" Type="date" Nullable="false" />
+    <Property Name="textCorrespondence" Type="varchar" MaxLength="255" />
+    <Property Name="attachedFile" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageCode" />
+    </Key>
+    <Property Name="MessageCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="hour" Type="datetime2" Precision="7" />
+    <Property Name="sender" Type="int" />
+    <Property Name="addresse" Type="nvarchar" MaxLength="50" />
+    <Property Name="MessageDetails" Type="nvarchar" MaxLength="50" />
+    <Property Name="viewa" Type="bit" />
+    <Property Name="nameUser" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Questions">
+    <Key>
+      <PropertyRef Name="QuestionsCode" />
+    </Key>
+    <Property Name="QuestionsCode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QuestionsDescription" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="statusQuestions" Type="int" Nullable="false" />
+    <Property Name="codeTpeInput" Type="int" />
+    <Property Name="value1" Type="int" />
+    <Property Name="value2" Type="int" />
+    <Property Name="text1" Type="varchar" MaxLength="50" />
+    <Property Name="text2" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="statusQuestions">
+    <Key>
+      <PropertyRef Name="codeStatus" />
+    </Key>
+    <Property Name="codeStatus" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="descriptionStatus" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TypeInput">
+    <Key>
+      <PropertyRef Name="CodeInput" />
+    </Key>
+    <Property Name="CodeInput" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameInput" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userCode" />
+    </Key>
+    <Property Name="userCode" Type="int" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fName" Type="varchar" MaxLength="50" />
+    <Property Name="lName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="visitsNum" Type="int" />
+    <Property Name="reliability" Type="int" />
+    <Property Name="EmergencyRoomCode" Type="int" />
+  </EntityType>
+  <EntityType Name="Visitings">
+    <Key>
+      <PropertyRef Name="codeVisit" />
+    </Key>
+    <Property Name="codeVisit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="dateAndTimeStart" Type="datetime2" Precision="7" />
+    <Property Name="dateAndTimeEnd" Type="datetime2" Precision="7" />
+    <Property Name="emergencyRoomCode" Type="int" Nullable="false" />
+    <Property Name="userCode" Type="int" Nullable="false" />
+    <Property Name="reliabilityVisit" Type="int" />
+  </EntityType>
+  <Association Name="FK__DetailsVi__Level__60A75C0F">
+    <End Role="LevelQuestions" Type="Self.LevelQuestions" Multiplicity="1" />
+    <End Role="DetailsVisit" Type="Self.DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LevelQuestions">
+        <PropertyRef Name="LevelCode" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="LevelCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailsVi__qoest__5EBF139D">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="DetailsVisit" Type="Self.DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QuestionsCode" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="qoestionCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DetailsVi__visit__5FB337D6">
+    <End Role="Visitings" Type="Self.Visitings" Multiplicity="1" />
+    <End Role="DetailsVisit" Type="Self.DetailsVisit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Visitings">
+        <PropertyRef Name="codeVisit" />
+      </Principal>
+      <Dependent Role="DetailsVisit">
+        <PropertyRef Name="visitCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LevelQues__Quest__5BE2A6F2">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="LevelQuestions" Type="Self.LevelQuestions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QuestionsCode" />
+      </Principal>
+      <Dependent Role="LevelQuestions">
+        <PropertyRef Name="QuestionsCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LinCcorre__dateC__25869641">
+    <End Role="Correspondence" Type="Self.Correspondence" Multiplicity="1" />
+    <End Role="LinCcorrespondence" Type="Self.LinCcorrespondence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Correspondence">
+        <PropertyRef Name="dateCorrespondence" />
+      </Principal>
+      <Dependent Role="LinCcorrespondence">
+        <PropertyRef Name="dateCorrespondence" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Questions__codeT__29572725">
+    <End Role="TypeInput" Type="Self.TypeInput" Multiplicity="0..1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeInput">
+        <PropertyRef Name="CodeInput" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="codeTpeInput" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Questions__statu__286302EC">
+    <End Role="statusQuestions" Type="Self.statusQuestions" Multiplicity="1" />
+    <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="statusQuestions">
+        <PropertyRef Name="codeStatus" />
+      </Principal>
+      <Dependent Role="Questions">
+        <PropertyRef Name="statusQuestions" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Visitings__emerg__145C0A3F">
+    <End Role="EmergencyRoom" Type="Self.EmergencyRoom" Multiplicity="1" />
+    <End Role="Visitings" Type="Self.Visitings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EmergencyRoom">
+        <PropertyRef Name="emergencyRoomCode" />
+      </Principal>
+      <Dependent Role="Visitings">
+        <PropertyRef Name="emergencyRoomCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Visitings__userC__15502E78">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Visitings" Type="Self.Visitings" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userCode" />
+      </Principal>
+      <Dependent Role="Visitings">
+        <PropertyRef Name="userCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmergencyRoom_CategoryEmergencyRooms">
+    <End Role="CategoryEmergencyRooms" Type="Self.CategoryEmergencyRooms" Multiplicity="0..1" />
+    <End Role="EmergencyRoom" Type="Self.EmergencyRoom" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CategoryEmergencyRooms">
+        <PropertyRef Name="CategoryCode" />
+      </Principal>
+      <Dependent Role="EmergencyRoom">
+        <PropertyRef Name="categoryCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Message_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userCode" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="sender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="CategoryEmergencyRooms" EntityType="Self.CategoryEmergencyRooms" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Correspondence" EntityType="Self.Correspondence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DetailsVisit" EntityType="Self.DetailsVisit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmergencyRoom" EntityType="Self.EmergencyRoom" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LevelQuestions" EntityType="Self.LevelQuestions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LinCcorrespondence" EntityType="Self.LinCcorrespondence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="statusQuestions" EntityType="Self.statusQuestions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeInput" EntityType="Self.TypeInput" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Visitings" EntityType="Self.Visitings" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DetailsVi__Level__60A75C0F" Association="Self.FK__DetailsVi__Level__60A75C0F">
+      <End Role="LevelQuestions" EntitySet="LevelQuestions" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailsVi__qoest__5EBF139D" Association="Self.FK__DetailsVi__qoest__5EBF139D">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DetailsVi__visit__5FB337D6" Association="Self.FK__DetailsVi__visit__5FB337D6">
+      <End Role="Visitings" EntitySet="Visitings" />
+      <End Role="DetailsVisit" EntitySet="DetailsVisit" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LevelQues__Quest__5BE2A6F2" Association="Self.FK__LevelQues__Quest__5BE2A6F2">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="LevelQuestions" EntitySet="LevelQuestions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LinCcorre__dateC__25869641" Association="Self.FK__LinCcorre__dateC__25869641">
+      <End Role="Correspondence" EntitySet="Correspondence" />
+      <End Role="LinCcorrespondence" EntitySet="LinCcorrespondence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Questions__codeT__29572725" Association="Self.FK__Questions__codeT__29572725">
+      <End Role="TypeInput" EntitySet="TypeInput" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Questions__statu__286302EC" Association="Self.FK__Questions__statu__286302EC">
+      <End Role="statusQuestions" EntitySet="statusQuestions" />
+      <End Role="Questions" EntitySet="Questions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Visitings__emerg__145C0A3F" Association="Self.FK__Visitings__emerg__145C0A3F">
+      <End Role="EmergencyRoom" EntitySet="EmergencyRoom" />
+      <End Role="Visitings" EntitySet="Visitings" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Visitings__userC__15502E78" Association="Self.FK__Visitings__userC__15502E78">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Visitings" EntitySet="Visitings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmergencyRoom_CategoryEmergencyRooms" Association="Self.FK_EmergencyRoom_CategoryEmergencyRooms">
+      <End Role="CategoryEmergencyRooms" EntitySet="CategoryEmergencyRooms" />
+      <End Role="EmergencyRoom" EntitySet="EmergencyRoom" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Message_Users" Association="Self.FK_Message_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

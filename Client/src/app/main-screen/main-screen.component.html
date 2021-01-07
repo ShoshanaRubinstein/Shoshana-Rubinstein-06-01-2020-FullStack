@@ -1,0 +1,34 @@
+<div class="city-page">
+  <div *ngIf="succedToDeleteOrAdd" class="alert alert-success" role="alert">
+    <button type="button" class="close" (click)='closeMassage()' >&times;</button>
+   Success to {{textButton}}!!
+  </div>
+  <div *ngIf="errorMassage" class="alert alert-danger" role="alert">
+    <button type="button" class="close" (click)='closeMassage()' >&times;</button>
+   Error!! this city already exist in favorite Cities
+  </div>
+  <div class="left-line"></div>
+  <div class="container wraper">
+  <div class="row">
+  <div class="col name-city">
+    <div *ngIf="!removedFavorite">
+    <div>{{currentCity.name}}</div><br>
+    <div class="wrap-weather">
+    <div class="temparature">{{cuurentWeather.temperature}}</div>
+    <div>{{cuurentWeather.weatherText}}</div>
+  </div>
+  
+  </div>
+    
+  </div>
+  <div class="col-6">
+    
+      <img class="favorite-icon" src="assets\heart.svg"/> 
+      <button type="button" class="btn btn-secondary" (click)='addorDeleteFavoriteCity()'>{{textButton}}</button><br>
+  </div>
+  <div class="col">
+      <div (click)="getWeatherOfCity(i)" class="item" *ngFor="let city of cities; let i = index">
+      <div [ngClass]="{selected:city.isSelected==true}">{{city.name}}</div>
+  </div>
+  </div>
+  </div>

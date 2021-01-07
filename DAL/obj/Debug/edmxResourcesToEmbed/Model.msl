@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="DBContext">
+    <EntitySetMapping Name="CategoryEmergencyRooms">
+      <EntityTypeMapping TypeName="Model.CategoryEmergencyRoom">
+        <MappingFragment StoreEntitySet="CategoryEmergencyRooms">
+          <ScalarProperty Name="descriptionCategory" ColumnName="descriptionCategory" />
+          <ScalarProperty Name="CategoryCode" ColumnName="CategoryCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Correspondences">
+      <EntityTypeMapping TypeName="Model.Correspondence">
+        <MappingFragment StoreEntitySet="Correspondence">
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="statusCorrespondence" ColumnName="statusCorrespondence" />
+          <ScalarProperty Name="codeOpenUser" ColumnName="codeOpenUser" />
+          <ScalarProperty Name="dateCorrespondence" ColumnName="dateCorrespondence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LevelQuestions">
+      <EntityTypeMapping TypeName="Model.LevelQuestion">
+        <MappingFragment StoreEntitySet="LevelQuestions">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="LevelCode" ColumnName="LevelCode" />
+          <ScalarProperty Name="QuestionsCode" ColumnName="QuestionsCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LinCcorrespondences">
+      <EntityTypeMapping TypeName="Model.LinCcorrespondence">
+        <MappingFragment StoreEntitySet="LinCcorrespondence">
+          <ScalarProperty Name="attachedFile" ColumnName="attachedFile" />
+          <ScalarProperty Name="textCorrespondence" ColumnName="textCorrespondence" />
+          <ScalarProperty Name="dateCorrespondence" ColumnName="dateCorrespondence" />
+          <ScalarProperty Name="userCode" ColumnName="userCode" />
+          <ScalarProperty Name="CodeCorrespondence" ColumnName="CodeCorrespondence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeInputs">
+      <EntityTypeMapping TypeName="Model.TypeInput">
+        <MappingFragment StoreEntitySet="TypeInput">
+          <ScalarProperty Name="NameInput" ColumnName="NameInput" />
+          <ScalarProperty Name="CodeInput" ColumnName="CodeInput" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmergencyRooms">
+      <EntityTypeMapping TypeName="Model.EmergencyRoom">
+        <MappingFragment StoreEntitySet="EmergencyRoom">
+          <ScalarProperty Name="loadHospital" ColumnName="loadHospital" />
+          <ScalarProperty Name="Satisfaction" ColumnName="Satisfaction" />
+          <ScalarProperty Name="categoryCode" ColumnName="categoryCode" />
+          <ScalarProperty Name="datumPointY" ColumnName="datumPointY" />
+          <ScalarProperty Name="datumPointX" ColumnName="datumPointX" />
+          <ScalarProperty Name="emergencyRoomAdress" ColumnName="emergencyRoomAdress" />
+          <ScalarProperty Name="emergencyRoomName" ColumnName="emergencyRoomName" />
+          <ScalarProperty Name="emergencyRoomCode" ColumnName="emergencyRoomCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DetailsVisits">
+      <EntityTypeMapping TypeName="Model.DetailsVisit">
+        <MappingFragment StoreEntitySet="DetailsVisit">
+          <ScalarProperty Name="reliabilityDetails" ColumnName="reliabilityDetails" />
+          <ScalarProperty Name="LevelCode" ColumnName="LevelCode" />
+          <ScalarProperty Name="dateAndTimeDetail" ColumnName="dateAndTimeDetail" />
+          <ScalarProperty Name="visitCode" ColumnName="visitCode" />
+          <ScalarProperty Name="qoestionCode" ColumnName="qoestionCode" />
+          <ScalarProperty Name="DetailsCode" ColumnName="DetailsCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="statusQuestions">
+      <EntityTypeMapping TypeName="Model.statusQuestion">
+        <MappingFragment StoreEntitySet="statusQuestions">
+          <ScalarProperty Name="descriptionStatus" ColumnName="descriptionStatus" />
+          <ScalarProperty Name="codeStatus" ColumnName="codeStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visitings">
+      <EntityTypeMapping TypeName="Model.Visiting">
+        <MappingFragment StoreEntitySet="Visitings">
+          <ScalarProperty Name="reliabilityVisit" ColumnName="reliabilityVisit" />
+          <ScalarProperty Name="userCode" ColumnName="userCode" />
+          <ScalarProperty Name="emergencyRoomCode" ColumnName="emergencyRoomCode" />
+          <ScalarProperty Name="dateAndTimeEnd" ColumnName="dateAndTimeEnd" />
+          <ScalarProperty Name="dateAndTimeStart" ColumnName="dateAndTimeStart" />
+          <ScalarProperty Name="codeVisit" ColumnName="codeVisit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Questions">
+      <EntityTypeMapping TypeName="Model.Question">
+        <MappingFragment StoreEntitySet="Questions">
+          <ScalarProperty Name="text2" ColumnName="text2" />
+          <ScalarProperty Name="text1" ColumnName="text1" />
+          <ScalarProperty Name="value2" ColumnName="value2" />
+          <ScalarProperty Name="value1" ColumnName="value1" />
+          <ScalarProperty Name="codeTpeInput" ColumnName="codeTpeInput" />
+          <ScalarProperty Name="statusQuestions" ColumnName="statusQuestions" />
+          <ScalarProperty Name="QuestionsDescription" ColumnName="QuestionsDescription" />
+          <ScalarProperty Name="QuestionsCode" ColumnName="QuestionsCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Model.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="EmergencyRoomCode" ColumnName="EmergencyRoomCode" />
+          <ScalarProperty Name="reliability" ColumnName="reliability" />
+          <ScalarProperty Name="visitsNum" ColumnName="visitsNum" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="fName" ColumnName="fName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="userCode" ColumnName="userCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="Model.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="nameUser" ColumnName="nameUser" />
+          <ScalarProperty Name="viewa" ColumnName="viewa" />
+          <ScalarProperty Name="MessageDetails" ColumnName="MessageDetails" />
+          <ScalarProperty Name="addresse" ColumnName="addresse" />
+          <ScalarProperty Name="sender" ColumnName="sender" />
+          <ScalarProperty Name="hour" ColumnName="hour" />
+          <ScalarProperty Name="MessageCode" ColumnName="MessageCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

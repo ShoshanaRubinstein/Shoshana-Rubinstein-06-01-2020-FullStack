@@ -1,0 +1,45 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample\Common\bin\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample\Common\bin\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.csprojAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\bin\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\bin\Debug\Common.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.csprojAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample\Common\obj\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample1\Common\bin\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample1\Common\bin\Debug\Common.pdb
+M:\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.csprojAssemblyReference.cache
+M:\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.dll
+M:\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Common\bin\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Common\bin\Debug\Common.pdb
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.dll
+\\mbyserver\users\pupils\32\6\208692319\פרויקט סיום יד\ProjectExample1\Common\obj\Debug\Common.pdb
+G:\project\ProjectExample1\Common\bin\Debug\Common.dll
+G:\project\ProjectExample1\Common\bin\Debug\Common.pdb
+G:\project\ProjectExample1\Common\obj\Debug\Common.csprojAssemblyReference.cache
+G:\project\ProjectExample1\Common\obj\Debug\Common.dll
+G:\project\ProjectExample1\Common\obj\Debug\Common.pdb
+C:\Users\rubinsts\ProjectExample1\Common\bin\Debug\Common.dll
+C:\Users\rubinsts\ProjectExample1\Common\bin\Debug\Common.pdb
+C:\Users\rubinsts\ProjectExample1\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\rubinsts\ProjectExample1\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\rubinsts\ProjectExample1\Common\obj\Debug\Common.dll
+C:\Users\rubinsts\ProjectExample1\Common\obj\Debug\Common.pdb

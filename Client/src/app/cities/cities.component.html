@@ -1,0 +1,9 @@
+
+  <div class="row search-area">
+    <button type="button" class="btn btn btn-secondary" (click)='searchCity()'>search</button>
+    <input  [(ngModel)]="selctedCity" class="form-control mr-sm-2 search-bar " type="search" placeholder="Search" aria-label="Search">
+    </div>
+<app-main-screen  [cities]="citiesList" [textButton]="textCity"></app-main-screen>
+
+
+<a routerLink="/favorite">go to favorite cities</a>
